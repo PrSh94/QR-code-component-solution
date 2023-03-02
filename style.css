@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Varela+Round&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Varela Round', sans-serif;
+}
+
+*{
+    margin-top: 0;
+    padding: 0;
+}
+
+/* center container  */
+.center_container{
+    width:95vw;
+    height:75vh;
+    box-shadow: 10px 10px 10px  lightgrey;
+    margin-top:6%;
+    margin-left: 2%;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main image and text container  */
+.main_cont{
+    background-color:hsl(0, 0%, 100%);
+    width: 22rem;
+    height: 28rem;
+    border-radius: 3%;
+    box-shadow: 10px 10px 10px  lightblue;
+}
+
+.main_cont img{
+    width: 20rem;
+    height: 15rem;
+    padding: 15px 15px;
+    border-radius: 8%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.main_cont p{
+    font-size: 25px;
+    font-weight: 700;
+    color:  hsl(218, 44%, 22%);
+    margin: 15px;
+    text-align: center;
+}
+
+.main_cont h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    margin: 15px;
+    text-align:center;
+}
+
+/* media query for mobile devices */
+
+@media screen and (max-width: 500px) {
+  .center_container{
+    width: 100%;
+    height: 100%;
+  }
+  .main_cont{
+    margin: 10px;
+  }
+}
